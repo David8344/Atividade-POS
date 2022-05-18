@@ -12,8 +12,8 @@
 		<contato id="CTT1">
 			<nome> Ana da Silva</nome> 
 			
-			<telefone tipo="trabalho">000-000-000</telefone> <email>ExemploDeEmail@gmail.com</email> <skype> Jose.S</skype>
-
+			<telefone tipo="trabalho">000-000-000</telefone> 
+			
 			<telefone tipo="residencia">000-000-000</telefone>
 
 			<telefone tipo="celular">000-000-000</telefone>
@@ -23,6 +23,8 @@
 			<email>Ana.S@gmail.com</email>
 
 			<msn>Ana.S</msn>
+			
+			<skype> Ana.S</skype>
 
 			<tipodecontato tipo="comercial" />
 		</contato>
@@ -34,13 +36,16 @@
 			
 			<telefone tipo="residencial ">000-000-000</telefone>
 
-			<telefone tipo="trabalho ">000-000-000</telefone> <telefone tipo="cel.">000-000-000</telefone>
+			<telefone tipo="trabalho ">000-000-000</telefone> 
+			
+			<telefone tipo="cel.">000-000-000</telefone>
 
 			<endereco>Rua Alfredo Carlos </endereco>
+			
+			<email>artur.m@gmail.com</email>
 
 			<msn>Artur.M</msn>
-
-			<email>artur.m@gmail.com</email> 
+ 
 			
 			<skype>Artur.M</skype> 
 			
@@ -57,7 +62,7 @@
 		<contato id="CTT3"> 
 			<nome> Brian da Silva Carvalho</nome> 
 			
-			<telefone tipo="celular">000-000-000</telefone> <email>ExemploDeEmail3@gmail.com</email>
+			<telefone tipo="celular">000-000-000</telefone> 
 
 			<telefone tipo="residencial">000-000-000</telefone> <telefone tipo="trab. ">000-000-000</telefone>
 
