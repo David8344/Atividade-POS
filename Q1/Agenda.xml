@@ -1,1 +1,72 @@
 
+<?xml version="1.1" encoding="UTF-8"?> 
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+
+<agenda>
+
+	<!-- Contatos com Inicial A-->
+
+	<letraA letra= "A">
+
+		<!-- Primeiro Contato Com A -->
+
+		<contato id="CTT1">
+
+			<nome> Ana da Silva</nome> <telefone tipo="trab.">000-000-000</telefone> <email>ExemploDeEmail@gmail.com</email> <skype> Jose.S</skype>
+
+			<telefone tipo="res. ">000-000-000</telefone>
+
+			<telefone tipo="cel. ">000-000-000</telefone>
+
+			<endereco> Rua das rosas </endereco>
+
+			<msn>Ana.S</mns>
+
+			<tipodecontato tipo="comercial" />
+
+		</contato>
+
+		<!-- Segundo Contato Com A -->
+
+		<contato id="CTT2">
+
+			<nome> Artur Medeiros </nome> <telefone tipo="res. ">000-000-000</telefone>
+
+			<telefone tipo="trab. ">000-000-000</telefone> <telefone tipo="cel.">000-000-000</telefone>
+
+			<endereco>Rua Alfredo Carlos </endereco>
+
+			<msn>Artur.M</msn>
+
+			<email>artur.m.000@gmail.com</email> 
+			
+			<skype>Artur.M</skype> 
+			
+			<tipodecontato tipo="pessoal" />
+
+		</contato>
+
+	</letraA>
+
+	<!-- Contatos com Inicial B--> 
+	<letraB letra="B">
+
+		<!-- Primeiro Contato com B -->
+
+		<contato id="CTT1"> <nome> Brian da Silva Carvalho</nome> <telefone tipo="cel. ">000-000-000</telefone> <email>ExemploDeEmail3@gmail.com</email>
+
+			<telefone tipo="res.">000-000-000</telefone> <telefone tipo="trab. ">000-000-000</telefone>
+
+			<endereco>Rua Afonso pena </endereco>
+
+			<msn>Brian.S</mn>
+
+			<skype>Brian. S</skype>
+
+			<tipodecontato tipo="pessoal" />
+
+		</contato>
+
+	</letraB>
+
+</agenda>
