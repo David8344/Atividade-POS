@@ -1,16 +1,18 @@
-<!ELEMENT agenda (letraA, letra)>
+<!ELEMENT agenda (letraA, letraB)>
 
-<!ELEMENT inicialA (contato*)>
+<!ELEMENT letraA (contato*)>
 
-<IATTLIST letraA letra CDATA #REQUIRED>
+<!ATTLIST letraA letra CDATA #REQUIRED>
 
-<IATTLIST letraB letra CDATA #REQUIRED> <!ELEMENT inicialB (contato*)>
+<!ATTLIST letraB letra CDATA #REQUIRED> 
 
-<IELEMENT contato (nome, telefone, endereco, email, msn, skype, tipocontato+)>
+<!ELEMENT letraB (contato*)>
 
-<!ATTLIST contato id CDATA #REQUIRED>
+<!ELEMENT contato (nome, telefone+, endereco, email, msn, skype, tipodecontato)>
 
-<IELEMENT nome (#PCDATA)>
+<!ATTLIST contato id ID #REQUIRED>
+
+<!ELEMENT nome (#PCDATA)>
 
 <!ELEMENT telefone (#PCDATA)>
 
@@ -26,4 +28,4 @@
 
 <!ELEMENT tipodecontato (#PCDATA)>
 
-<IATTLIST tipodecontato tipo (pessoal | comercial) #REQUIRED>
+<!ATTLIST tipodecontato tipo (pessoal | comercial) #REQUIRED>
