@@ -1,6 +1,5 @@
-
-<?xml version="1.0" encoding="UTF-8"?> 
-<!DOCTYPE agenda SYSTEM "Agenda.dtd">
+<?xml version="1.1" encoding="UTF-8"?> 
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
 
 <agenda>
 
@@ -11,28 +10,29 @@
 		<!-- Primeiro Contato Com A -->
 
 		<contato id="CTT1">
+			<nome> Ana da Silva</nome> 
+			
+			<telefone tipo="trabalho">000-000-000</telefone> <email>ExemploDeEmail@gmail.com</email> <skype> Jose.S</skype>
 
-			<nome> Ana da Silva</nome> <telefone tipo="trab.">000-000-000</telefone> <email>ExemploDeEmail@gmail.com</email> <skype> Jose.S</skype>
+			<telefone tipo="residencia">000-000-000</telefone>
 
-			<telefone tipo="res. ">000-000-000</telefone>
-
-			<telefone tipo="cel. ">000-000-000</telefone>
+			<telefone tipo="celular">000-000-000</telefone>
 
 			<endereco> Rua das rosas </endereco>
 
-			<msn>Ana.S</mns>
+			<msn>Ana.S</msn>
 
 			<tipodecontato tipo="comercial" />
-
 		</contato>
 
 		<!-- Segundo Contato Com A -->
 
 		<contato id="CTT2">
+			<nome> Artur Medeiros </nome> 
+			
+			<telefone tipo="residencial ">000-000-000</telefone>
 
-			<nome> Artur Medeiros </nome> <telefone tipo="res. ">000-000-000</telefone>
-
-			<telefone tipo="trab. ">000-000-000</telefone> <telefone tipo="cel.">000-000-000</telefone>
+			<telefone tipo="trabalho ">000-000-000</telefone> <telefone tipo="cel.">000-000-000</telefone>
 
 			<endereco>Rua Alfredo Carlos </endereco>
 
@@ -43,7 +43,6 @@
 			<skype>Artur.M</skype> 
 			
 			<tipodecontato tipo="pessoal" />
-
 		</contato>
 
 	</letraA>
@@ -53,18 +52,20 @@
 
 		<!-- Primeiro Contato com B -->
 
-		<contato id="CTT1"> <nome> Brian da Silva Carvalho</nome> <telefone tipo="cel. ">000-000-000</telefone> <email>ExemploDeEmail3@gmail.com</email>
+		<contato id="CTT3"> 
+			<nome> Brian da Silva Carvalho</nome> 
+			
+			<telefone tipo="celular">000-000-000</telefone> <email>ExemploDeEmail3@gmail.com</email>
 
-			<telefone tipo="res.">000-000-000</telefone> <telefone tipo="trab. ">000-000-000</telefone>
+			<telefone tipo="residencial">000-000-000</telefone> <telefone tipo="trab. ">000-000-000</telefone>
 
 			<endereco>Rua Afonso pena </endereco>
 
-			<msn>Brian.S</mn>
+			<msn>Brian.S</msn>
 
 			<skype>Brian. S</skype>
 
 			<tipodecontato tipo="pessoal" />
-
 		</contato>
 
 	</letraB>
