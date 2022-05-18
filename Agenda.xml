@@ -1,0 +1,93 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!DOCTYPE agenda [
+
+<!ELEMENT agenda (ano*)>
+
+<!ELEMENT ano (data*)>
+
+<!ATTLIST ano valor CDATA #REQUIRED>
+
+<!ELEMENT data (nota*)>
+
+<!ATTLIST data dia CDATA #REQUIRED mes CDATA #REQUIRED >
+
+nota (compromisso*)>
+
+<!ATTLIST nota hora CDATA #IMPLIED>
+
+<!ELEMENT compromisso (#PCDATA) >
+
+<IATTLIST compromisso numero CDATA #REQUIRED >
+]
+
+<agenda>
+
+	<ano valor="2022">
+
+	 
+<data dia="6" mes="8">
+
+		<nota hora="16">
+
+
+			<compromisso numero="01">Estudar</compromisso>
+
+		</nota>
+
+		<nota hora="13">
+
+
+			<compromisso numero="02">Ler</compromisso>
+
+		</nota>
+
+		<nota hora="12">
+
+
+			<compromisso numero="03">Almoçar</compromisso>
+
+		</nota>
+
+         </data>
+
+         <data dia="26" mes="8">
+
+               <nota hora="16">
+
+                       <compromisso numero="01">Estudar</compromisso>
+
+               </nota>
+
+               <nota hora="13">
+
+                       <compromisso numero="02">Ler</compromisso>
+
+               </nota>
+
+               <nota hora="12">
+
+                       <compromisso numero="03">Almoçar</compromisso>
+
+               </nota>
+
+         </data>
+
+</ano>
+
+<ano valor="2023">
+
+<data dia="1" mes="01">
+
+<nota hora="01">
+
+
+<compromisso numero="01">dormir</compromisso>
+
+</nota>
+
+</data>
+
+</ano>
+
+</agenda>
